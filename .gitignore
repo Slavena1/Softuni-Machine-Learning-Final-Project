@@ -1,3 +1,21 @@
+# Jupyter
 .ipynb_checkpoints/
 __pycache__/
-*.ipynb_checkpoints
+
+# Mac
+.DS_Store
+
+# Large data files - NEVER commit these
+*.xlsx
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.joblib
+*.model
+Zhou1/
+
+# Virtual environments
+venv/
+env/
+.venv/
