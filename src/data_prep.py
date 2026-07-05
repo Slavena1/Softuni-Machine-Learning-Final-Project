@@ -61,7 +61,10 @@ def load_hsk(paths_by_level):
     df_hsk = pd.concat(hsk_dfs, ignore_index=True)
 
     # Resolve duplicates — keep lowest level
-    df_hsk = df_hsk.sort_values('hsk_level').drop_duplicates(
+    # Sort by hsk_level then word (secondary key) so row order — and therefore
+    # any downstream train/test split built on it — is fully deterministic
+    # regardless of pandas/numpy version or sort algorithm.
+    df_hsk = df_hsk.sort_values(['hsk_level', 'word']).drop_duplicates(
         subset='word', keep='first').reset_index(drop=True)
     return df_hsk
 
