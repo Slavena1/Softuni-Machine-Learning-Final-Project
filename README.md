@@ -1,4 +1,4 @@
-# Between Child and Machine: A Mandarin Case Study
+# Between Child and Machine: Where Does Adult Second Language Acquisition Sit on the Learning Spectrum? A Mandarin Case Study
 
 Comparing word acquisition patterns across three "learners" of Mandarin — children (L1),
 adult L2 learners, and a language model's frequency signal — to test whether adult L2
