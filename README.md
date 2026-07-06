@@ -32,9 +32,11 @@ Place these five files in `data/` (not included in this repo due to size/licensi
 |---|---|
 | `wordbank_mandarin_items.csv` | Wordbank Beijing Mandarin CDI, https://wordbank.stanford.edu |
 | `hsk1.csv` ... `hsk6.csv` | HSK vocabulary lists, https://github.com/plaktos/hsk_csv |
+| `train-00000-of-00001.parque` | Hu, M. et al. Chinese BabyLM Challenge corpus |
 | `babylm_zh_frequencies.csv` | Precomputed word frequencies from the Chinese BabyLM corpus |
 | `Concretenss_Ratings_of_9877_Two_Character_Chinese_Words.xlsx` | Xu & Li (2020) |
 | `liu_2007_single_char.txt` | Liu et al. (2007), Chinese Single-character Word Database |
+
 
 All files available to download here:
 https://drive.google.com/drive/folders/13qEDS3YRXskJjXPesqNmPn9uImHmopVl?usp=drive_link
