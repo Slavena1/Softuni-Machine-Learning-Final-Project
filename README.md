@@ -36,6 +36,9 @@ Place these five files in `data/` (not included in this repo due to size/licensi
 | `Concretenss_Ratings_of_9877_Two_Character_Chinese_Words.xlsx` | Xu & Li (2020) |
 | `liu_2007_single_char.txt` | Liu et al. (2007), Chinese Single-character Word Database |
 
+All files available to download here:
+https://drive.google.com/drive/folders/13qEDS3YRXskJjXPesqNmPn9uImHmopVl?usp=drive_link
+
 If `babylm_zh_frequencies.csv` is missing, `data_prep.load_babylm_frequencies()` will
 recompute it from the raw BabyLM parquet corpus using `jieba` segmentation — this requires
 `jieba` (see `requirements.txt`) and takes several minutes.
